@@ -34,6 +34,7 @@ DEBUG = args.debug
 
 # Open the ConfigParser for CONFIG_FILE
 Config.parse(CONFIG_FILE)
+# print(Config.ConfigMap['MODULES.CORE']['comm_type'])
 
 # Overwrite the ConfigMap
 if args.option is not None:
